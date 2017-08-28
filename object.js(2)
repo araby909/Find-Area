@@ -1,0 +1,9 @@
+var x = prompt ("enter.firstName, lastName, age, or grade")
+
+var students = {
+  firstName:"Bobby",
+  lastName:"Tarantino",
+  grade:"11",
+  age:"27"
+};
+window.alert(students[x]);
