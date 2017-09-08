@@ -1,0 +1,4 @@
+var x = prompt("Name");
+document.getElementById('one').innerHTML = x;
+
+//DOM
