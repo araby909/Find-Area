@@ -5,3 +5,20 @@ document.getElementById('one').innerHTML = x;
 
 <p id="one"></p>
 // html ID
+
+
+//function and DOM JS DOM
+function showName(){
+	var userName = document.getElementById('userName').value;
+  document.getElementById('one').innerHTML="Hello" + userName;
+}
+//HTML Input and button and id 
+<Input type="text" id="userName"></Input> 
+<button onclick="showName()">Show my name</button>
+<p id="one"></p>
+
+
+//Css change font size
+#one {
+  font-size: 200%;
+}
