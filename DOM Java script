@@ -22,3 +22,19 @@ function showName(){
 #one {
   font-size: 200%;
 }
+
+
+//killing people
+
+<p class="stem">Duane</p>
+<p class="stem">Bob</p>
+<p class="stem">Brandon</p>
+<p class="stem">Dod</p>
+<p class="stem">Carlos</p>
+<p class="stem">Ace</p>
+<button onclick="deathNote()">Random death</button>
+
+function deathNote() {
+var death = Math.floor(Math.random() * 6);
+ 	document.getElementsByClassName('stem')[death].innerHTML = "xxxxxxxxxxx";
+}
