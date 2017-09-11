@@ -46,3 +46,24 @@ var death = Math.floor(Math.random() * 6);
  	document.getElementsByClassName('stem')[death].innerHTML = "<img src='https://www.singularityweblog.com/wp-content/uploads/2016/02/Death.jpg' width= '10%'>";
 }
 }
+
+
+
+
+
+
+//create an element with text
+
+<p> Click the button to create a P element with some text.</p>
+<button onclick="myFunction()">Try it
+</button>
+
+
+
+
+function myFunction() {
+var para = document.createElement("P");
+var t = document.createTextNode("This is a paragraph");
+para.appendChild(t);
+document.body.appendChild(para);
+}
