@@ -37,4 +37,12 @@ function showName(){
 function deathNote() {
 var death = Math.floor(Math.random() * 6);
  	document.getElementsByClassName('stem')[death].innerHTML = "xxxxxxxxxxx";
+	
+	
+//with html above this is to add pictures	
+	
+	function deathNote() {
+var death = Math.floor(Math.random() * 6);
+ 	document.getElementsByClassName('stem')[death].innerHTML = "<img src='https://www.singularityweblog.com/wp-content/uploads/2016/02/Death.jpg' width= '10%'>";
+}
 }
