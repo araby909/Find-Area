@@ -67,3 +67,31 @@ var t = document.createTextNode("This is a paragraph");
 para.appendChild(t);
 document.body.appendChild(para);
 }
+
+
+
+
+
+//adding two variables Math.power, Math.sqrt
+//watch out for quotes from google docs might be a little slanted
+
+
+A:
+<input type="number" id='a'> 
+<br>
+B:
+<input type= "number" id="b">
+<br>
+C:
+<p id="c"></p>
+<button onclick="showC()">Show my answer</button>
+
+
+
+
+function showC() {
+
+var a = document.getElementById('a').value;
+var b = document.getElementById('b').value;
+document.getElementById('c').innerHTML = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
+}
