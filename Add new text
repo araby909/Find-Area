@@ -26,3 +26,30 @@ newListItem.appendChild(newText);
 var position = document.getElementsByTagName('ul')[0];
 position.appendChild(newListItem);
 }
+
+
+
+
+
+
+
+
+
+//HTML
+<ul>
+ </ul>
+<button onclick="addAnother()">Add to list</button>
+<input type="text" id="x">
+
+
+
+//be able to add text
+function addAnother() {
+
+var newListItem = document.createElement('li');
+var x = document.getElementById('x').value;
+var newText = document.createTextNode(x);
+newListItem.appendChild(newText);
+var position = document.getElementsByTagName('ul')[0];
+position.appendChild(newListItem);
+}
