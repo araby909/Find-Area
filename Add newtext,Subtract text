@@ -53,3 +53,22 @@ newListItem.appendChild(newText);
 var position = document.getElementsByTagName('ul')[0];
 position.appendChild(newListItem);
 }
+
+
+
+
+//listing
+<ul>
+<li>Chicken</li>
+<li>Duck</li>
+<li>Goose</li>
+</ul>
+<button onclick="removeOne()">Take out of list</button>
+
+
+//removing from list
+function removeOne() {
+var duck = document.getElementsByTagName('li')[1];
+var ul = duck.parentNode;
+ul.removeChild(duck);
+}
