@@ -36,3 +36,31 @@ var step2 = (Math.pow(x,3) * step1);
 var step2 = parseInt(step2);
 document.getElementById('showAnswer').innerHTML = step2;
 }
+
+//html
+<h1>Guess a number between 1 and 5</h1>
+<input type="number" id="playerGuess">
+<button onclick="runGame()">Guess</button>
+<p id="wins"></p>Wins
+<p id="losses"></p>Losses
+
+
+
+
+
+//rungame make sure double equals not triple
+var w = 0;
+var l = 0;
+
+function runGame() {
+var compGuess = (Math.floor(Math.random() * 5)+1);
+var playerGuess = document.getElementById('playerGuess').value;
+if (playerGuess == compGuess) {
+ w++;
+ document.getElementById('wins').innerHTML = w;
+}
+else {
+ l++;
+ document.getElementById('losses').innerHTML = l;
+}
+}
