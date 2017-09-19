@@ -12,3 +12,19 @@ function changeBackground() {
    document.body.style.background = 'url("https://i.ytimg.com/vi/-HE3jj5Ah2M/maxresdefault.jpg")';
    document.body.style.backgroundSize = "cover";
 }
+
+
+// adding text to the background of the background picture
+<button onclick="changeBackground()">
+Change Background
+</button>
+<h1 id="kittycat">
+CATTT
+</h1>
+
+
+function changeBackground() {
+   document.body.style.background = 'url("https://i.ytimg.com/vi/-HE3jj5Ah2M/maxresdefault.jpg")';
+   document.body.style.backgroundSize = 'cover';
+   document.getElementById('kittycat').style.textShadow = "5px 5px 5px #ff0000"; //no spaces between 5 and px
+}
