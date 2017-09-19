@@ -1,0 +1,14 @@
+
+//Background
+<button onclick="changeBackground()">
+Change Background
+</button>
+
+
+
+
+//adding picture from google and making it background
+function changeBackground() {
+   document.body.style.background = 'url("https://i.ytimg.com/vi/-HE3jj5Ah2M/maxresdefault.jpg")';
+   document.body.style.backgroundSize = "cover";
+}
