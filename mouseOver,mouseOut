@@ -1,0 +1,20 @@
+//HTML
+<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNjg3OTg4MDczMl5BMl5BanBnXkFtZTgwODc0NzUwNjE@._V1_UX214_CR0,0,214,317_AL_.jpg" id="Emi" onmouseover="mouseOver()" onmouseout="mouseOut()">
+<p id="instructions">
+Move your mouse over the dog to see how a mouseover event triggers code
+</p>
+
+
+//mouse over picture gives text
+function mouseOver() {
+	document.getElementById('instructions').innerHTML = "You touched Emi!!!";
+}
+//mouse off picture gives text
+function mouseOut() {
+	document.getElementById('instructions').innerHTML = "She's hot right. ;3";
+}
+
+//css to adjust picture
+#Emi {
+  width: 200px;
+}
