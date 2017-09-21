@@ -1,7 +1,7 @@
 //HTML
 <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNjg3OTg4MDczMl5BMl5BanBnXkFtZTgwODc0NzUwNjE@._V1_UX214_CR0,0,214,317_AL_.jpg" id="Emi" onmouseover="mouseOver()" onmouseout="mouseOut()">
 <p id="instructions">
-Move your mouse over the dog to see how a mouseover event triggers code
+Move your mouse over Emi to see how a mouseover event triggers code
 </p>
 
 
